@@ -78,7 +78,7 @@
                   <li class="mt">
                       <a class="{{Request::is('admin/casosinactivos') ? 'active' : ''}}" href="{{URL::to('admin/casosinactivos')}}">
                           <i class="fa fa-folder"></i>
-                          <span>Casos Inactivos</span>
+                          <span>Casos Terminados</span>
                       </a>
                   </li> 
                    <li class="mt">

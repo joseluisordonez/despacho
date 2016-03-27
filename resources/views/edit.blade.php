@@ -45,7 +45,7 @@
 					<div class="form-group">
 						{!! Form::label ('status','Status',['class'=>'control-label col-sm-2'])!!}
 						<div class="col-sm-2">
-							{!! Form::select ('status',['activo' =>'Activo','inactivo' => 'Inactivo'],$caso->status,['class'=>'form-control'])!!}
+							{!! Form::select ('status',['activo' =>'Activo','inactivo' => 'Terminado'],$caso->status,['class'=>'form-control'])!!}
 						</div>
 					</div>
 					<div class="showback">

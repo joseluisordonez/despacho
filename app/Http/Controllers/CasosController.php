@@ -33,7 +33,7 @@ class CasosController extends Controller
     }
     public function casosinactivos()
     {    
-        $x='Casos Inactivos';
+        $x='Casos Terminados';
         $casos = Caso::orderBy('fecha','ASC')->where('status', 'inactivo')->paginate(100);
         return view ('admin')
             ->with('casos',$casos)

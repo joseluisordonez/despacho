@@ -31,7 +31,7 @@
 							@if ($caso->status =='activo')
 								<span class="label label-success">Activo</span>
 							@else
-								<span class="label label-warning">Inactivo</span>
+								<span class="label label-warning">Terminado</span>
 							@endif
 							</td>                                       
 						</tr>                   
